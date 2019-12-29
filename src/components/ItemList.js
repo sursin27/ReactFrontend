@@ -23,7 +23,7 @@ class ItemList extends Component {
                     <div key={item.id}>
                             <ListGroup style={setDistanceBetweenItems}>
                                 <ListGroupItem href={item.officialSite} header={item.name}>
-                                    Ratingss: {item.rating.average}
+                                    Ratings: {item.rating.average}
                                     <span className="pull-xs-right">Premiered: {item.premiered}</span>
                                 </ListGroupItem>
                             </ListGroup>
